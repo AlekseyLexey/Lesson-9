@@ -33,9 +33,9 @@ img {
 	vertical-align: top;
 }
 body{
-	background-color: rgb(80, 80, 80);
 	font-family: Benne;
 	font-size: 20px;
+	background: url('../img/bg-main.jpg') 0 95% / cover no-repeat;
 }
 /* Стили */
 /* ОТДЕЛЬНЫЕ БЛОКИ */
@@ -165,6 +165,7 @@ body{
 	position: relative;
 	top: 400px;
 	left: 600px;
+	z-index: 3;
 }
 .main__car:hover .platform-main__stick::before{
 	display: block;
